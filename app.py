@@ -1,6 +1,8 @@
 from flask import Flask, request, render_template
 import pandas as pd
 
+
+print("Olá mundo! Deploy realiado via Azure CLI")
 app = Flask(__name__)
 
 @app.route('/')
